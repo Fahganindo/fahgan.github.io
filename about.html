@@ -12,12 +12,13 @@
             grid-template-columns: repeat(3, 1fr);
             gap: 10px;
             width: 95%;
-            margin: 100px auto;
+            margin: 80px auto;
+
         }
         [class*='box']{
-            box-shadow: 0 0 7px 5px black;
+            box-shadow: 0 0 5px 1px black;
             padding: 10px;
-            border-radius: 0px;
+            border-radius: 5px;
         }
         .media{
             box-shadow: 0 0 7px 5px grey;
@@ -29,29 +30,50 @@
             background-size: 100%;
             background-position: center;
         }
-        ul {
-            display: flex;
-            list-style: none;
-            box-shadow: 0 0 7px 5px grey;
-        }
-        li {
-            padding: 12px;
-            border-radius: 2px;
-            box-shadow: 0 0 0px 1px grey;
-        a {
-            text-decoration: none;
-            color: black;
+        .center {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 100%;
         }
 
         p {
             font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
         }
 
         h2 {
             font-family: Arial, Helvetica, sans-serif;
+            font-weight: bolder;
+            text-align: center;
+            font-size: x-large;
+
         }
 
-    }
+        h1 {
+            font-family: Arial, Helvetica, sans-serif;
+
+
+
+        }
+        ul {
+            display: flex;
+            list-style: none;
+            box-shadow: 0 0 7px 5px grey;
+            border-radius: 5px;
+        }
+        li {
+            padding: 12px;
+            border-radius: 0px;
+            box-shadow: 0 0 0px 0px grey;
+        }
+        a {
+            text-decoration: none;
+            font-family: Arial, Helvetica, sans-serif;
+            color: black;
+        }
+        
+    
         @media only screen and (max-width: 768px) {
         .container, ul {
             display: block;
@@ -65,13 +87,14 @@
             width: 100%;
             height: 200px;
             margin-bottom: 25px;
-            background-image: url(https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcT6y1K0bKmRWcYCMVhYKEOcWp3jn78iFYihpOjyv3M4yyP7wCER);
+            background-image: ;
+            border-radius: ;
         }
         .box-2{
 
         }
         .box-2 > .media{
-            width: 100%;
+            width: 50%;
             height: 50px;
             margin-bottom: 25px;
             background-image: url(https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcT6y1K0bKmRWcYCMVhYKEOcWp3jn78iFYihpOjyv3M4yyP7wCER);
@@ -96,50 +119,28 @@
 </head>
 <body>
     <ul>
-        <li><a href="https://fahganindo4life.my.id/#">Home</a></li>
-        <li><a href="https://fahganindo4life.my.id/#">Course</a></li>
-        <li><a href="https://fahganindo4life.my.id/#">Blog</a></li>
-        <li><a href="https://fahganindo4life.my.id/#">Portofolio</a></li>
-        <li><a href="https://fahganindo4life.my.id/#">About</a></li>
-        <li><a href="https://fahganindo4life.my.id/#">Easter Egg</a></li>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Course</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Portofolio</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="">Easter Egg</a></li>
     </ul>
     <div class="container">
         <div class="box-1">
-            <div class="media"></div>
-            <h2>Title</h2>
-            <p>content</p>
+            <div class="media"><img src="600px-SOrifle.jpg" width="100%" class="center"></div>
+            <h2>ABDULRAHMAN ARAFAH SUNARTO</h2>
+            <p> Web Developer</p> 
+            <img src="" alt="" srcset="">
+            <div class="box-1">
+                <a href="https://facebook.com/arafah.rafa"> <img src="file:///C:/Users/fahga/Downloads/facebook.svg" alt="" srcset="" width="10%"> </a>
+                <a href="https://www.instagram.com/arafah.abdulrahman_/"> <img src="file:///C:/Users/fahga/Downloads/instagram.svg" alt="" srcset="" width="10%"> </a>
+                <a href="https://api.whatsapp.com/send/?phone=6287774701694&text&type=phone_number&app_absent=0"> <img src="file:///C:/Users/fahga/Downloads/whatsapp.svg" alt="" srcset="" width="10%"> </a>
+            </div>
+            
+
         </div>
-        <div class="box-2">
-            <div class="media"></div>
-            <h2>Title</h2>
-            <p>content</p>
-        </div>
-        <div class="box-3">
-            <div class="media"></div>
-            <h2>Title</h2>
-            <p>content</p>
-        </div>
-        <div class="box-4">
-            <div class="media"></div>
-            <h2>Title</h2>
-            <p>content</p>
-        </div>
-        <div class="box-5">
-            <div class="media"></div>
-            <h2>Title</h2>
-            <p>content</p>
-        </div>
-        <div class="box-6">
-            <div class="media"></div>
-            <h2>Title</h2>
-            <p>content</p>
-        </div>
-        <div class="box-7">
-            <div class="media"></div>
-            <h2>Title</h2>
-            <p>content</p>
-        </div>
-    </div>
+
     
 
 
