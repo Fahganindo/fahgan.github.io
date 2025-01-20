@@ -7,18 +7,25 @@
     <style>
         * {
             box-sizing: border-box;
+
         }
+
+        body {
+            background-image: url(https://i.pinimg.com/736x/e1/2e/4d/e12e4dd11ee3a78caf03ea0b10943b10.jpg);
+        }
+
         .container  {
             display: grid;
             grid-template-columns: repeat(3, 1fr);
-            gap: 10px;
-            width: 95%;
+            gap: 15px;
+            width: 90%;
             margin: 100px auto;
+            border-radius: 100px;
         }
-        [class*='box']{
-            box-shadow: 0 0 7px 5px black;
+        [class *='box']{
+            box-shadow: 0 0 7px 5px rgb(125, 125, 139);
             padding: 10px;
-            border-radius: 0px;
+            border-radius: 100px;
         }
         .media{
             box-shadow: 0 0 7px 5px grey;
@@ -35,6 +42,7 @@
             list-style: none;
             box-shadow: 0 0 7px 5px grey;
             border-radius: 5px;
+            background-color:white;
         }
         li {
             padding: 12px;
@@ -45,10 +53,20 @@
 
         p {
             font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            justify-self: auto;
         }
 
-        h2 {
-            font-family: Arial, Helvetica, sans-serif;
+        .center {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 100%;
+        }
+
+
+        h3 {
+            font-family: Arial, Helvetica, sans-serif;  
         }
 
     }
@@ -60,37 +78,90 @@
         .box-1{
             grid-row-start: 1 ;
             grid-row-end: 4 ;
+            border-radius: 10px;
+            background-color:white;
         }
         .box-1 > .media{
             width: 100%;
-            height: 200px;
-            margin-bottom: 25px;
-            background-image: url(https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcT6y1K0bKmRWcYCMVhYKEOcWp3jn78iFYihpOjyv3M4yyP7wCER);
+            height: 220px;
+            margin-bottom: 30px;
+            background-image: url(https://upload.wikimedia.org/wikipedia/id/d/d0/Logo_LP3I.png) ;
+            background-size: 195px;
         }
         .box-2{
+            border-radius: 10px;
+            background-color:white;
 
         }
         .box-2 > .media{
             width: 100px;
             height: 85px;
             margin-bottom: 25px;
-            background-image: url(https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcT6y1K0bKmRWcYCMVhYKEOcWp3jn78iFYihpOjyv3M4yyP7wCER);
+            background-image: url(https://www.lp3i.ac.id/wp-content/uploads/2022/11/technology.png);
+            background-size: 95px;
+            background-position: top;
+            margin-bottom: 100px;
         }
         .box-3{
-
+            border-radius: 10px;
+            background-color:white;
         }
+
+        .box-3 > .media{
+            width: 100px;
+            height: 85px;
+            margin-bottom: 25px;
+            background-image: url(https://www.lp3i.ac.id/wp-content/uploads/2022/10/business.png);
+            background-size: 91px;
+            background-position: top;
+            margin-bottom: 100px;
+        }
+
         .box-4{
-
+            border-radius: 10px;
+            background-color:white;
         }
+
+        .box-4 > .media{
+            width: 100px;
+            height: 90px;
+            margin-bottom: 25px;
+            background-image: url(https://www.lp3i.ac.id/wp-content/uploads/2022/11/hospitality.png);
+            background-size: 95px;
+            background-position: top;
+            margin-bottom: 100px;
+        }
+
         .box-5{
-
+            border-radius: 10px;
+            background-color:white;
         }
+
+        .box-5 > .media{
+            width: 100px;
+            height: 85px;
+            margin-bottom: 25px;
+            background-image: url(https://www.lp3i.ac.id/wp-content/uploads/2022/11/finance.png);
+            background-size: 85px;
+            background-position: top;
+            margin-bottom: 100px;
+        }
+
         .box-6{
-
+            border-radius: 10px;
+            background-color:white;
         }
-        .box-7{
 
+        .box-6 > .media{
+            width: 100px;
+            height: 85px;
+            margin-bottom: 25px;
+            background-image: url(https://www.lp3i.ac.id/wp-content/uploads/2022/11/communication.png);
+            background-size: 90px;
+            background-position: top;
+            margin-bottom: 100px;
         }
+
 
     </style>
 </head>
@@ -106,41 +177,35 @@
     </ul>
     <div class="container">
         <div class="box-1">
-            <div class="media"></div>
-            <h2>Title</h2>
-            <p>content</p>
+            <div class="media center"></div>
+            <h1>LP3I</h1>
+            <p>Institusi pendidikan vokasi bisnis dan teknologi yang sudah ada di Indonesia sejak 34 tahun yang lalu. LP3I memiliki dua jenis sub-institusi yaitu College yang menaungi Pendidikan 2 Tahun Siap Kerja dan Politeknik yang menaungi pendidikan jenjang D3 & Sarjana Terapan. Saat ini LP3I terdapat di 26 titik dan tersebar di hampir semua provinsi seluruh Indonesia</p>
         </div>
         <div class="box-2">
             <div class="media"></div>
-            <h2>Title</h2>
-            <p>content</p>
+            <h3>APPLICATION SOFTWARE ENGINEERING</h3>
+            <p>Junior Web Developer, Junior Mobile Programmer, Junior Network, Digital Creator, IT Support, Administrator Digital, IT Development,Data Analyst.</p>
         </div>
         <div class="box-3">
             <div class="media"></div>
-            <h2>Title</h2>
-            <p>content</p>
+            <h3>DIGITAL BUSSINESS MANAGEMENT</h3>
+            <p>Tenaga Administrasi Ekspor dan Impor, Administrasi Keuangan, Administrasi Perpajakan, Penyelia Pemasaran dan Administrasi Penjualan yang berbasis teknologi dan sebagai Digital Marketer.</p>
         </div>
         <div class="box-4">
             <div class="media"></div>
-            <h2>Title</h2>
-            <p>content</p>
+            <h3>OFFICE ADMINISTRATION AUTOMATIZATION</h3>
+            <p>Tenaga Administrasi HRD Administrasi Urusan Umum / General Affair, Personnel Asisstance / Administrasi Perkantoran, Administrasi Keuangan dan Administrasi Perpajakan Perorangan, Administrasi Perpajakan Badan Usaha berbasis otomasi teknologi.</p>
         </div>
         <div class="box-5">
             <div class="media"></div>
-            <h2>Title</h2>
-            <p>content</p>
+            <h3>ACCOUNTING INFORMATION SYSTEM</h3>
+            <p>Staf Akuntansi Staf Keuangan, Staf Pajak, Penggajian, Audit Mesin Kasir Internal</p>
         </div>
         <div class="box-6">
             <div class="media"></div>
-            <h2>Title</h2>
-            <p>content</p>
-        </div>
-        <div class="box-7">
-            <div class="media"></div>
-            <h2>Title</h2>
-            <p>content</p>
+            <h3>PERSONNEL ADMINISTRATIVE ASSISTANCE</h3>
+            <p>Tenaga Administrasi Kesekretariatan, Asisten Pribadi, Administrator Berbasis ICT Customer Service, Junior Sekretaris, Protokoler Perusahaan dan Instansi Pemerintah.</p>
         </div>
     </div>
-    
 </body>
 </html>
